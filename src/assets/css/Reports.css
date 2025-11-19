@@ -1,0 +1,27 @@
+.reports-container {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f7f8fa;
+}
+
+.reports-paper {
+    padding: 32px;
+    text-align: center;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.reports-paper h6 {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.reports-paper p {
+    font-size: 1rem;
+    color: #555555;
+}

@@ -1,0 +1,61 @@
+.schedule-container {
+    padding: 30px !important;
+    font-family: "Montserrat", sans-serif !important;
+    height: 80vh !important;
+    background: #f7f8fa !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
+
+.schedule-paper {
+    flex: 1 !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    overflow-x: auto !important;
+}
+
+.schedule-table-wrapper {
+    flex: 1 !important;
+    min-height: 0 !important;
+    max-height: 100% !important;
+    width: 100% !important;
+}
+
+.schedule-datagrid {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+.schedule-datagrid .MuiDataGrid-columnHeaders {
+    background-color: #e3f2fd !important;
+    font-weight: bold !important;
+}
+
+.schedule-datagrid .MuiDataGrid-row:hover {
+    background-color: #f1f5f9 !important;
+}
+
+.schedule-datagrid .MuiDataGrid-cell {
+    font-size: 0.95rem !important;
+}
+
+.status-pending { color: #ff9800 !important; font-weight: bold !important; }
+.status-completed { color: #4caf50 !important; font-weight: bold !important; }
+.status-cancelled { color: #f44336 !important; font-weight: bold !important; }
+
+@media (max-width: 768px) {
+    .schedule-container {
+        padding: 0 !important;
+    }
+    .schedule-paper {
+        padding: 15px !important;
+    }
+    .schedule-datagrid {
+        font-size: 0.85rem !important;
+    }
+}

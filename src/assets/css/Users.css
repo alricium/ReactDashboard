@@ -1,0 +1,48 @@
+.users-container {
+    padding: 30px !important;
+    font-family: "Montserrat", sans-serif !important;
+    height: 80vh !important;
+    background: #f7f8fa !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
+
+.users-table-paper {
+    flex: 1 !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    overflow-x: auto !important;
+}
+
+.users-table-wrapper {
+    flex: 1 !important;
+    min-height: 0 !important;
+    width: 100% !important;
+}
+
+.users-datagrid {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .users-container {
+        padding: 0 !important;
+    }
+    .users-buttons {
+        flex-wrap: wrap !important;
+    }
+
+    .users-datagrid {
+        font-size: 0.85rem !important;
+    }
+
+    .users-table-paper {
+        padding: 15px !important;
+    }
+}

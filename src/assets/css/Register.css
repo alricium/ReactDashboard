@@ -1,0 +1,144 @@
+.register-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--auth-bg);
+    color: var(--text-color);
+}
+
+.register-box {
+    background: rgba(37, 37, 37, 0.9);
+    padding: 40px 30px;
+    border-radius: var(--radius);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.register-icon {
+    font-size: 50px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.register-title {
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.register-description {
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+.register-form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.register-input-icon {
+    position: relative;
+}
+
+.register-input-icon input,
+.register-password-icon input {
+    width: 100%;
+    padding: 12px 40px;
+    background: #1a1a1a;
+    border: 1px solid #660000;
+    border-radius: var(--radius);
+    color: var(--text-color);
+    font-size: 0.95rem;
+    height: 45px;
+}
+
+.register-input-icon input:focus,
+.register-password-icon input:focus {
+    background: #1a1a1a;
+    border-color: var(--primary-color);
+    color: var(--text-color);
+    box-shadow: none;
+    outline: none;
+}
+
+.register-input-icon svg,
+.register-password-icon .register-input-left-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    pointer-events: none;
+}
+
+.register-password-icon .register-toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.register-checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.register-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.register-checkbox-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.register-checkbox-label a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.register-checkbox-label a:hover {
+    text-decoration: underline;
+}
+
+.register-btn {
+    background-color: var(--primary-color);
+    border: none;
+    width: 100%;
+    border-radius: var(--radius);
+    padding: 12px 0;
+    color: var(--text-color);
+}
+
+.register-btn:hover {
+    background-color: #cc0000;
+}
+
+.register-footer {
+    margin-top: 15px;
+}
+
+.register-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.register-footer a:hover {
+    text-decoration: underline;
+}
