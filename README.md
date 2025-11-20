@@ -41,7 +41,7 @@ Projeyi indir / Download the project:
 
 ```bash
 git clone https://github.com/alricium/ReactDashboard.git
-cd proje-adi
+cd ReactDashboard
 npm install
 npm run dev
 
